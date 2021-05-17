@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+DATABASE_URL = 'postgres://wvbetomcuzyibp:cf30f0ba49fc563f94f3e6e892f80e0e060c8806ecfbcd3c5f2388a6e24cc552@ec2-107-20-153-39.compute-1.amazonaws.com:5432/dfqnmvi7u7l60p'
 
 DATABASES = {
     'default': {
